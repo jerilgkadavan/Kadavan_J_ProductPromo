@@ -130,11 +130,11 @@
     /* media quiery */
   
   
-    @media only screen and (max-width: 480px){
+    @media only screen and (max-width: 600px){
   
     .poster_row{
       display: flex;
       flex-direction: column;
-      
+    
         }
       }
