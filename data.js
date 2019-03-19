@@ -13,7 +13,7 @@ bottomImg: "bottom_img.png",
 price: "$399.95",
 priceInfo: "3.5 out of 5 stars Colour - Shadow Grey Crystal BlueCrystal Blue Desert SandDesert Sand Midnight BlackMidnight Black",
 button: "Add to bag",
-copyright:"&copy; 2019 BeatsStudio3.com",
+copyright:"2019 BeatsStudio3.com",
 
 
 }
