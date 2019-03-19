@@ -1,8 +1,140 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
 
-a {
-  color: #00B7FF;
-}
+
+
+.poster_row{
+  display: flex;
+  
+    }
+  
+    .columnPoster {
+   
+      flex: 1; 
+    }
+  
+    h1{
+      font-family: 'Roboto', sans-serif;
+      font-size: 85px;
+      color: #707070;
+      font-style: bold;
+    }
+  
+    h2{
+      font-family: 'Roboto', sans-serif;
+      font-size: 60px;
+      color: #B5ABAB;
+      font-style: normal;
+    }
+    .columntwo{
+        margin-top: 20px;
+      padding: 60px;
+    }
+  
+  
+    /* mid section */
+  
+    .mid_row{
+        display: flex;
+        margin-top: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    h3{
+      font-family: 'Roboto', sans-serif;
+      font-size: 50px;
+      color: #707070;
+      font-style: normal;
+    }
+    p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      color: #707070;
+      font-style: normal;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  
+    .columnfour{
+      margin-top: 30px;
+    padding: 60px;
+  }
+  .hrone{
+      margin-top: 200px;
+      width: 1533px;
+      color: #A8A8A8;
+  }
+  
+  /* bottom section */
+  
+  .bottom_row{
+      display: flex;
+        margin-top: 200px;
+        align-items: center;
+        justify-content: center;
+        
+  }
+  .columnSix{
+      margin-top: 20px;
+    padding: 10px;
+    align-self: auto;
+  }
+  .price{
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+      color: #707070;
+      font-style: normal;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    button{
+      width: 200px;
+      height: 50px;
+      border-radius: 32px;
+      background: linear-gradient(#eed094 0%, rgba(209, 187, 160, 0.32) 100%);
+      border: none;
+    color: #707070;
+   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    }
+    .hrtwo{
+      margin-top: 100px;
+      width: 1533px;
+      color: #A8A8A8;
+  }
+  .copyright{
+      display: flex;
+      text-align: center;
+      font-size: 10px;
+  }
+  
+  /* footer section */
+  
+  .footer {
+    font-size: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    .copypara{
+        font-size: 15px;
+    }
+  
+  
+  
+    /* media quiery */
+  
+  
+    @media only screen and (max-width: 480px){
+  
+    .poster_row{
+      display: flex;
+      flex-direction: column;
+      
+        }
+      }
