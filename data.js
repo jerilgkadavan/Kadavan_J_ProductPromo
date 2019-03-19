@@ -9,6 +9,8 @@ titleTwo:"The Beats Skyline Collection Shadow Grey",
 
 midImg: "wire_img.png",
 productInfo: "Product Information",
+bottomImg: "bottom_img.png",
+priceInfo: "3.5 out of 5 stars Colour - Shadow Grey Crystal BlueCrystal Blue Desert SandDesert Sand Midnight BlackMidnight Black",
 
 
 }
