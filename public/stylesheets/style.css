@@ -5,10 +5,16 @@
   display: flex;
   
     }
+    #logo{
+      width: 184px;
+      height: 140px ;
+    }
   
-    .columnPoster {
+    #poster {
    
-      flex: 1; 
+      /* flex: 1;  */
+      width: 1025px;
+      height: 844px;
     }
   
     h1{
@@ -38,6 +44,11 @@
         align-items: center;
         justify-content: center;
     }
+
+    #midImg{
+      width: 934px;
+      height: 565px;
+    }
   
     h3{
       font-family: 'Roboto', sans-serif;
@@ -54,10 +65,7 @@
       margin-top: 20px;
     }
   
-    .columnfour{
-      margin-top: 30px;
-    padding: 60px;
-  }
+    
   .hrone{
       margin-top: 200px;
       width: 1533px;
@@ -73,6 +81,11 @@
         justify-content: center;
         
   }
+
+  #bottomImg{
+    width: 818px;
+    height: 474px;
+  }
   .columnSix{
       margin-top: 20px;
     padding: 10px;
@@ -86,6 +99,15 @@
       font-style: normal;
       padding: 10px;
       margin-top: 20px;
+      font-style: bold;
+    }
+    .priceInfo{
+      font-family: 'Roboto', sans-serif;
+      font-size: 22px;
+      color: #707070;
+      font-style: normal;
+      padding: 10px;
+      margin-top: 20px;
     }
     button{
       width: 200px;
@@ -93,15 +115,14 @@
       border-radius: 32px;
       background: linear-gradient(#eed094 0%, rgba(209, 187, 160, 0.32) 100%);
       border: none;
-    color: #707070;
-   
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+      color: #707070;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
     }
     .hrtwo{
       margin-top: 100px;
@@ -123,7 +144,7 @@
     }
   
     .copypara{
-        font-size: 15px;
+        font-size: 20px;
     }
   
   
@@ -138,4 +159,141 @@
       flex-direction: column;
     
         }
+
+        #logo{
+          width: 111px;
+          height: auto;
+        }
+
+        #poster {
+   
+          /* flex: 1;  */
+          width: 322px;
+          height: auto;
+
+        }
+        .columntwo{
+          width: 300px;
+          margin: 0 auto;
+        }
+        h1{
+          font-family: 'Roboto', sans-serif;
+          font-size: 34px;
+          color: #707070;
+          font-style: bold;
+          margin: 0 auto;
+        }
+        h2{
+          font-family: 'Roboto', sans-serif;
+          font-size: 29px;
+          color: #B5ABAB;
+          font-style: normal;
+        }
+
+          /* mid section */
+
+          .mid_row{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #midImg{
+          width: 500px;
+          height: auto;
+          margin-top: -145px;
+        }
+
+        h3{
+          font-family: 'Roboto', sans-serif;
+          font-size: 30px;
+          color: #707070;
+          font-style: normal;
+          width: 300px;
+          margin: -20px;
+          margin-bottom: 30px;
+        }
+        p{
+          font-family: 'Roboto', sans-serif;
+          font-size: 18px;
+          color: #707070;
+          font-style: normal;
+          padding: 10px;
+          margin-top: 20px;
+          
+        }
+
+        .columnfour{
+          margin-top: 30px;
+        padding: 60px;
+        width: 300px;
+      }
+      .hrone{
+    display: none;
+    }
+    .bottom_row{
+      display: flex;
+      flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+        justify-content: center;
+        
+  }
+
+  #bottomImg{
+    width: 405px;
+    height: auto;
+  }
+
+  .columnSix{
+    margin-top: 10px;
+  padding: 10px;
+  align-self: auto;
+  width: 350px;
+  align-items: center;
+        justify-content: center;
+}
+
+.price{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #707070;
+  font-style: normal;
+  padding: 10px;
+  margin-top: 20px;
+  font-style: bold;
+}
+.priceInfo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #707070;
+  font-style: normal;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+button{
+  width: 193px;
+  height: 46px;
+  border-radius: 32px;
+  background: linear-gradient(#eed094 0%, rgba(209, 187, 160, 0.32) 100%);
+  border: none;
+  color: #707070;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+  .hrtwo{
+    margin-top: 100px;
+    width: 313px;
+    color: #A8A8A8;
+
+}
+
       }
